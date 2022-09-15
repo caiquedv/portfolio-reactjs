@@ -106,8 +106,8 @@ export const Projects: Project[] = [
         about: "Vite | Tailwind",
         status: true,
         link: {
-            repository: "https://github.com/caiquedv/multiform-reactjs/",
-            deploy: "https://caiquedv.github.io/multiform-reactjs/"
+            repository: "https://github.com/caiquedv/portfolio-reactjs/",
+            deploy: "https://caiquedv.github.io/portfolio-reactjs/"
         }
     },
 ];
