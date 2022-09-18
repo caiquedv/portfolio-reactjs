@@ -6,7 +6,7 @@ export const Footer = () => {
                     <div className="mb-2">
                         Mais projetos com outras tecnologias
                         <a className="text-cyan-700 font-bold ml-1 pr-1
-                            transition hover:bg-slate-600 hover:text-white rounded-full"
+                            transition hover:bg-slate-600 hover:text-white hover:shadow-lg rounded-full"
                             href="https://caiquedv.github.io/"
                             target="_blanck"
                         > aqui</a>
@@ -15,7 +15,7 @@ export const Footer = () => {
                     <div>
                         Developed with 💛 by
                         <a className="text-cyan-700 font-bold ml-1 pr-1
-                            transition hover:bg-slate-600 hover:text-white rounded-full"
+                            transition hover:bg-slate-600 hover:text-white hover:shadow-lg rounded-full"
                             href="https://www.linkedin.com/in/caique-andrade-front-end/"
                             target="_blanck"
                         > Caique Andrade</a>

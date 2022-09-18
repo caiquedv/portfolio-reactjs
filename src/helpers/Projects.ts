@@ -1,17 +1,22 @@
+import mockupCalc from '../assets/images/mockup-calc.png';
+import mockupp from '../assets/images/mockup-pizza.png';
+
 interface Project {
     id: number;
+    preview: string | undefined;
     title: string;
     about: string;
     status: boolean;
     link: {
         repository: string,
-        deploy: string;
+        deploy: string | null;
     }
 }
 
 export const Projects: Project[] = [
     {
         id: 0,
+        preview: mockupCalc,
         title: "Calculadora de IMC",
         about: "CRA | CSS Modules",
         status: true,
@@ -22,6 +27,7 @@ export const Projects: Project[] = [
     },
     {
         id: 1,
+        preview: mockupp,
         title: "Galeria JSONPlaceholder",
         about: "Vite | Tailwind | Axios | React Router Dom",
         status: true,
@@ -32,6 +38,7 @@ export const Projects: Project[] = [
     },
     {
         id: 2,
+        preview: undefined,
         title: "Jogo da Memória",
         about: "Vite | Styled Components",
         status: true,
@@ -42,16 +49,18 @@ export const Projects: Project[] = [
     },
     {
         id: 3,
+        preview: undefined,
         title: "Clone da OLX",
         about: "Vite | Styled Components | Redux | React Router Dom",
         status: false,
         link: {
             repository: "https://github.com/caiquedv/react_inspired-olx/",
-            deploy: "https://caiquedv.github.io/react_inspired-olx/"
+            deploy: null
         }
     },
     {
         id: 4,
+        preview: undefined,
         title: "Lista de Tarefas",
         about: "Vite | Styled Components",
         status: true,
@@ -62,6 +71,7 @@ export const Projects: Project[] = [
     },
     {
         id: 5,
+        preview: undefined,
         title: "Sistema de Finanças Pessoais",
         about: "Vite | Styled Components",
         status: true,
@@ -72,6 +82,7 @@ export const Projects: Project[] = [
     },
     {
         id: 6,
+        preview: undefined,
         title: "Galeria de Fotos",
         about: "Vite | Styled Components | Firebase",
         status: true,
@@ -82,6 +93,7 @@ export const Projects: Project[] = [
     },
     {
         id: 7,
+        preview: undefined,
         title: "Jogo estilo RPG",
         about: "Vite | Styled Components",
         status: false,
@@ -92,6 +104,7 @@ export const Projects: Project[] = [
     },
     {
         id: 8,
+        preview: undefined,
         title: "Formulário Multi-Etapas",
         about: "Vite | Styled Components | React Router Dom",
         status: true,
@@ -102,12 +115,13 @@ export const Projects: Project[] = [
     },
     {
         id: 9,
+        preview: undefined,
         title: "Portfólio ReactJS",
         about: "Vite | Tailwind",
         status: true,
         link: {
             repository: "https://github.com/caiquedv/portfolio-reactjs/",
-            deploy: "https://caiquedv.github.io/portfolio-reactjs/"
+            deploy: null
         }
     },
 ];
