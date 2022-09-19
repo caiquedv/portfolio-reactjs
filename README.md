@@ -25,7 +25,7 @@
 
 <h2>:computer: Projeto</h2>
 
-Uma tabela dinamica e responsiva que serve como vitríne para so princípais projetos desenvolvidos com ReactJS.
+Uma tabela dinamica e responsiva que serve como vitríne para os princípais projetos desenvolvidos com ReactJS.<br>
 
 <h2>:eyes: Implantação</h2>
 
