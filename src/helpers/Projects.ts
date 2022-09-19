@@ -1,5 +1,12 @@
 import mockupCalc from '../assets/images/mockup-calc.png';
-import mockupp from '../assets/images/mockup-pizza.png';
+import mockupJsonGallery from '../assets/images/mockup-jsongallery.png';
+import mockupMemory from '../assets/images/mockup-memory.png';
+import mockupOlx from '../assets/images/mockup-olx.png';
+import mockupToDo from '../assets/images/mockup-to-dolist.png';
+import mockupExpanse from '../assets/images/mockup-expanse.png';
+import mockupFireGalley from '../assets/images/mockup-fire-gallery.png';
+import mockupRpg from '../assets/images/mockup-rpg.png';
+import mockupForm from '../assets/images/mockup-form.png';
 
 interface Project {
     id: number;
@@ -27,7 +34,7 @@ export const Projects: Project[] = [
     },
     {
         id: 1,
-        preview: mockupp,
+        preview: mockupJsonGallery,
         title: "Galeria JSONPlaceholder",
         about: "Vite | Tailwind | Axios | React Router Dom",
         status: true,
@@ -38,7 +45,7 @@ export const Projects: Project[] = [
     },
     {
         id: 2,
-        preview: undefined,
+        preview: mockupMemory,
         title: "Jogo da Memória",
         about: "Vite | Styled Components",
         status: true,
@@ -49,7 +56,7 @@ export const Projects: Project[] = [
     },
     {
         id: 3,
-        preview: undefined,
+        preview: mockupOlx,
         title: "Clone da OLX",
         about: "Vite | Styled Components | Redux | React Router Dom",
         status: false,
@@ -60,7 +67,7 @@ export const Projects: Project[] = [
     },
     {
         id: 4,
-        preview: undefined,
+        preview: mockupToDo,
         title: "Lista de Tarefas",
         about: "Vite | Styled Components",
         status: true,
@@ -71,7 +78,7 @@ export const Projects: Project[] = [
     },
     {
         id: 5,
-        preview: undefined,
+        preview: mockupExpanse,
         title: "Sistema de Finanças Pessoais",
         about: "Vite | Styled Components",
         status: true,
@@ -82,7 +89,7 @@ export const Projects: Project[] = [
     },
     {
         id: 6,
-        preview: undefined,
+        preview: mockupFireGalley,
         title: "Galeria de Fotos",
         about: "Vite | Styled Components | Firebase",
         status: true,
@@ -93,7 +100,7 @@ export const Projects: Project[] = [
     },
     {
         id: 7,
-        preview: undefined,
+        preview: mockupRpg,
         title: "Jogo estilo RPG",
         about: "Vite | Styled Components",
         status: false,
@@ -104,7 +111,7 @@ export const Projects: Project[] = [
     },
     {
         id: 8,
-        preview: undefined,
+        preview: mockupForm,
         title: "Formulário Multi-Etapas",
         about: "Vite | Styled Components | React Router Dom",
         status: true,
